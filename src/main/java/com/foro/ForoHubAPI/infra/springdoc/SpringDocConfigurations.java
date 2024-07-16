@@ -3,6 +3,7 @@ package com.foro.ForoHubAPI.infra.springdoc;
 import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.security.SecurityScheme;
+import org.springdoc.core.models.GroupedOpenApi;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -18,7 +19,8 @@ public class SpringDocConfigurations {
     }
 
     @Bean
-    public void message(){
+    public GroupedOpenApi message(){
         System.out.println("bearer is working");
+        return null;
     }
 }

@@ -59,4 +59,5 @@ La API se despliega localmente en:
 
 Aun faltan por agregar muchas cosas, como las respuestas, incluso se podria hacer que cada curso sea una entidad que puede tener infinitud de topicos, pero sera para otra ocasion, gracias por ver este proyecto.
 
-## Autores
+## Imagenes
+![img.png](img.png)
